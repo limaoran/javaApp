@@ -1,0 +1,17 @@
+
+代码package：com.rr.download
+
+文件下载
+	并且实现断点续传
+	
+
+断点续传内核的实现
+	SiteFileFetch.java 负责整个文件的抓取，控制内部线程 (FileSplitterFetch 类 )。 
+	FileSplitterFetch.java 负责部分文件的抓取。 
+	FileAccess.java 负责文件的存储。
+	SiteInfoBean.java 要抓取的文件的信息，如文件保存的目录，名字，抓取文件的 URL 等。 
+	Utility.java 工具类，放一些简单的方法。 
+	TestMethod.java 测试类。 
+
+
+
